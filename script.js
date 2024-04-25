@@ -119,9 +119,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Function to close the cart
-    closeCart.addEventListener('click', () => {
-        body.classList.toggle('showCart');
-    });
+ // Add event listener to the close button
+closeCart.addEventListener('click', () => {
+    console.log('Close button clicked'); // Debugging statement
+    body.classList.toggle('showCart');
+});
 
 
   // Event listener for adding items to the cart
@@ -206,6 +208,14 @@ const btn = document.querySelector('.checkOut');
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
+// Get reference to the close button in the cart
+const closeCartButton = document.querySelector('.close');
+
+// Add event listener to the close button
+closeCartButton.addEventListener('click', () => {
+    // Toggle the 'showCart' class on the body element to close the cart
+    document.body.classList.remove('showCart');
+});
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -223,6 +233,76 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+// Get references to the profile icon and the login container
+const profileIcon = document.getElementById('profile');
+const loginContainer = document.getElementById('loginContainer');
+
+// Add event listener to the profile icon
+profileIcon.addEventListener('click', function() {
+  // Toggle the visibility of the login container
+  loginContainer.style.display = loginContainer.style.display === 'block' ? 'none' : 'block';
+});
+
+// Close the login container when the user clicks on the close button
+const closeButton = document.querySelector('.login-container .close');
+closeButton.addEventListener('click', function() {
+  loginContainer.style.display = 'none';
+});
+
+// Prevent form submission (for demonstration purposes)
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Add your login logic here
+});
+// Prevent form submission (for demonstration purposes)
+
+// Prevent form submission (for demonstration purposes)
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  // Get the username from the input field
+  const usernameInput = document.getElementById('username');
+  const username = usernameInput.value.trim();
+  // For simplicity, we're not handling the password here
+
+  // Display an alert with the greeting message
+  //window.alert(`Hi there, ${username}!`);
+
+  // Hide the login container
+  loginContainer.style.display = 'none';
+});
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  // Get the username from the input field
+  const usernameInput = document.getElementById('username');
+  const username = usernameInput.value.trim();
+  // For simplicity, we're not handling the password here
+
+  // Display an alert with the greeting message
+  window.alert(`Hi there, ${username}!`);
+
+  // Hide the login container
+  loginContainer.style.display = 'none';
+
+  // Update the content of the profile icon with the logged-in username
+  const loggedInUsername = document.getElementById('loggedInUsername');
+  loggedInUsername.textContent = username;
+});
+// Event listener for the "Add review" button
+document.querySelector('.revieww').addEventListener('click', function() {
+  // Display the review form container
+  const reviewFormContainer = document.getElementById('reviewFormContainer');
+  reviewFormContainer.style.display = 'block';
+});
+
+// Event listener for the close button in the review form container
+document.querySelector('.review-form-container .close').addEventListener('click', function() {
+  // Hide the review form container
+  const reviewFormContainer = document.getElementById('reviewFormContainer');
+  reviewFormContainer.style.display = 'none';
+});
+
 
 
 // Function to handle confirming the PIN

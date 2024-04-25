@@ -92,10 +92,11 @@ nav ul li a:hover {
     background: rgba(201, 180, 180, 0.493);
 }
 
-.profile {
-    margin-left: 20px;
-    box-shadow: 5px 15px 15px #8d8d8d;
-    background: rgba(201, 180, 180, 0.493);
+#profile {
+    margin-left: 150px;
+    background: rgba(0, 0, 0, 0);
+    margin-top: -1000px;
+
 }
 
 .profile:hover {
@@ -620,5 +621,118 @@ body.showCart .container {
 .close:focus {
     color: rgb(52, 253, 243);
     text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styling for the login container */
+.login-container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    width: 500px;
+    max-width: 160%;
+    min-height: 250px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.login-container h2 {
+    margin-top: 2;
+}
+
+.login-container input,
+.login-container button {
+    margin-bottom: 20px;
+}
+
+.login-container .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.loggg {
+    margin-left: 200px;
+}
+
+.revieww {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.review-form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.review-form-container h2 {
+    margin-top: 0;
+}
+
+.review-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.review-form-container input[type="number"],
+.review-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.review-form-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.review-form-container button:hover {
+    background-color: #45a049;
+}
+
+.review-form-container .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
 }
