@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.solar1 {
+    margin-top: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: inside;
+    margin: 5px 5px;
+    padding-left: 0px;
+    cursor: pointer;
+    transition: 2s;
+    margin: none;
+    justify-content: center;
+    background: transparent;
+}
+
+
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+nav ul li a:hover {
+    color: rgb(33, 138, 236);
+    transition: 0.7s;
+
+}
+
+.top {
+    margin-right: -10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    box-shadow: 5px 0px 5px;
+    margin-left: 390px;
+    padding-left: 40px;
+}
+
+.top:hover {
+    color: rgb(15, 235, 26);
+    transition: 0.4s;
+}
+
+.logo {
+    color: rgb(0, 119, 255);
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    z-index: 1000;
+    position: fixed;
+}
+
+.jua {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 500px;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 1000;
+    color: rgb(15, 236, 15);
+    font-weight: bold;
+}
+
+#search {
+    margin-left: 250px;
+    box-shadow: 5px 10px 10px #8d8d8d;
+    background: rgba(201, 180, 180, 0.493);
+}
+
+.cart {
+    margin-left: 20px;
+    box-shadow: 5px 15px 15px #8d8d8d;
+    background: rgba(201, 180, 180, 0.493);
+}
+
+.profile {
+    margin-left: 20px;
+    box-shadow: 5px 15px 15px #8d8d8d;
+    background: rgba(201, 180, 180, 0.493);
+}
+
+.profile:hover {
+    background: rgb(0, 174, 255);
+    color: white;
+}
+
+.cart:hover {
+    background: rgb(62, 238, 39);
+    color: white;
+}
+
+#search:hover {
+    background: rgb(19, 230, 177);
+    color: white;
+}
+
+
+.paragraph {
+    width: 500px;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+
+.karibu {
+    color: rgb(233, 236, 9);
+    font-size: 20px;
+}
+
+.title1 {
+    font-size: 20px;
+    color: rgb(44, 255, 209);
+    font-weight: bold;
+    margin-left: 490px;
+    margin-top: -200px;
+}
+
+.fruit2 {
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: -500px;
+}
+
+
+.search-form {
+    border: 0px solid;
+    position: absolute;
+    top: 20%;
+    margin-left: 620px;
+    width: 16rem;
+    height: 2.5rem;
+    background: #ffffff00;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    right: 1;
+}
+
+.search-form input {
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-decoration: none;
+    color: var(--black);
+    padding: 0 1.5rem;
+}
+
+.search-form input {
+    border: rgb(9, 226, 161);
+}
+
+.search-form label {
+    cursor: pointer;
+}
+
+.search-form:active {
+    right: 1;
+}
+
+.our {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.features {
+    background-color: rgb(40, 252, 234);
+    padding: 10px;
+    border-radius: 5px 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.ffeature {
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.card {
+    width: calc(34.33% - 20px);
+    height: 430px;
+    background-color: #e7e7e7;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.aaa {
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.line1 {
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -24px;
+}
+
+.card:hover {
+    background: red;
+    color: white;
+    transition: 0.9s ease-in-out;
+}
+
+.bb {
+    margin-bottom: 50px;
+}
+
+.products {
+    margin-top: 520px;
+    margin-right: 990px;
+}
+
+.cardd {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#cardd-image {
+    width: 200px;
+    height: 200px;
+}
+
+.add-to-cart {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+.cardd {
+    width: calc(30.33% - 20px);
+    margin-bottom: -10px;
+
+}
+
+.card-content {
+    padding: -20px;
+
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+}
+
+.review-card {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 520px;
+}
+
+.review-card h3 {
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    margin-bottom: 5px;
+
+}
+
+#reviews {
+    margin-top: 200px;
+}
+
+#gramlogo {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.contact {
+    margin-top: 300px;
+    margin-top: 250px;
+}
+
+#instag {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.gram {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+}
+
+.review-card:hover {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 520px;
+    background-color: red;
+    color: white;
+    transition: 0.9s;
+}
+
+.search-match {
+    background-color: rgb(248, 52, 215);
+    transition: background-color 0.9s ease;
+}
+
+.stars {
+    color: gold;
+}
+
+.stars span {
+    font-size: 28px;
+}
+
+/*the add to cart function  */
+
+.container {
+    width: 200px;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+    position: fixed;
+    margin-left: 50px;
+}
+
+svg {
+    width: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icon-cart {
+    position: relative;
+    margin-left: 250px;
+    margin-top: -30px;
+
+}
+
+.icon-cart span {
+    position: absolute;
+    background-color: rgb(32, 149, 245);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 40%;
+    right: 0px;
+    margin-left: 400px;
+
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.listProduct .item img {
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+
+.listProduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item {
+    background-color: #EEEEE6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.listProduct .item .price {
+    letter-spacing: 7px;
+    font-size: small;
+}
+
+.listProduct .item button {
+    background-color: #353432;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/* cart */
+.cartTab {
+    width: 400px;
+    background-color: #797979f8;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+    margin-top: 70px;
+}
+
+body.showCart .cartTab {
+    right: 0;
+}
+
+body.showCart .container {
+    transform: translateX(-30px);
+}
+
+.cartTab h1 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab button {
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .close {
+    background-color: #eee;
+}
+
+.listCart .item img {
+    width: 100%;
+}
+
+.listCart .item {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.listCart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #58f5c6;
+    cursor: pointer;
+    margin-top: 400px;
+}
+
+.listCart .quantity span:nth-child(2) {
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+}
+
+.listCart .item:nth-child(even) {
+    background-color: #eee1;
+}
+
+.listCart {
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar {
+    width: 0;
+}
+
+.product-image-small {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-item {
+    display: flex;
+    /* Display items horizontally */
+    align-items: center;
+    /* Align items vertically in the center */
+    margin-bottom: 10px;
+    /* Add some margin between items */
+    font-size: 14px;
+    /* Set the font size */
+}
+
+.product-image-small {
+    width: 50px;
+    /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+    /* Add some space between image and text */
+}
+
+.info-container p {
+    margin: 0;
+    /* Remove default margin for paragraphs */
+}
+
+.delete-button {
+    border: 1px solid #ccc;
+    /* Add border with a light gray color */
+    border-radius: 5px;
+    /* Add border radius for a smoother look */
+    background-color: transparent;
+    /* Make background transparent */
+    padding: 5px 10px;
+    /* Add padding for better button appearance */
+    margin-left: auto;
+    /* Push the button to the right */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: all 0.3s ease;
+    /* Add smooth transition for hover effect */
+}
+
+.delete-button:hover {
+    background-color: #ddd;
+    /* Change background color on hover */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal-content {
+    background-color: #2cebc1cb;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #2c2727;
+    width: 80%;
+}
+
+.close {
+    color: #030303;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(52, 253, 243);
+    text-decoration: none;
+    cursor: pointer;
+}

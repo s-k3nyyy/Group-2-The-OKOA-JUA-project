@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mama Mboga Grocery Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linking Font Awesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/2de799230c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-solar-panel"></i></a>
+      <span class="jua">OKOA &#127774;JUA</span>
+    </header>
+    <nav class="nav-bar">
+      <div class="top">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <form class="search-form" id="search-form">
+            <input type="search" id="search-box" placeholder="Search Here..." />
+            <label for="search-box" class="fa fa-search"></label>
+          </form>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="icon-cart">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 18 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+            />
+          </svg>
+          <span>0</span>
+        </div>
+        <div class="listProduct"></div>
+      </div>
+      <div class="cartTab">
+        <h1>Cart items</h1>
+        <div class="listCart"></div>
+        <div class="btn">
+          <button class="close">CLOSE</button>
+          <button class="checkOut">Check Out</button>
+          <!-- Inside the cart item -->
+
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Enter Phone Number and M-Pesa PIN</h2>
+              <input
+                type="text"
+                id="phone-number"
+                placeholder="Enter your phone number"
+              />
+              <input
+                type="password"
+                id="mpesa-pin"
+                placeholder="Enter your M-Pesa PIN"
+              />
+              <button id="confirm-pin">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <img class="solar1" src="images/solar1.jpeg" alt="Fruits Picture" />
+        <div class="text-content">
+          <p class="title1">Fresh And Organic Veggies and Fruits For You</p>
+          <p class="paragraph">
+            Welcome to our grocery website, where convenience meets quality!
+            Dive into a world of fresh produce, pantry staples, and gourmet
+            delights from the comfort of your home. Our extensive selection
+            boasts everything from farm-fresh fruits and vegetables to artisanal
+            cheeses and premium meats, catering to every culinary craving.
+            Browse through our user-friendly interface, where intuitive search
+            features and personalized recommendations ensure a seamless shopping
+            experience. With secure online transactions and prompt doorstep
+            delivery, we strive to simplify your grocery shopping journey. Join
+            our community of food enthusiasts and embark on a gastronomic
+            adventure with every click.
+            <span class="karibu">Karibu Mama Mboga</span>
+          </p>
+        </div>
+        <div class="ffeature" id="product">
+          <p class="our">Our <span class="features">Products</span></p>
+        </div>
+        <div class="card-container" id="product-container"></div>
+        <div class="Reviews" id="reviews">
+          <p class="our">Our <span class="features">Reviews</span></p>
+          <div class="reviews-container" id="reviews-container"></div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <p class="our">Contact <span class="features">Us</span></p>
+        <div>
+          <p>
+            <i id="gramlogo" class="fa-brands fa-instagram"></i
+            ><span id="instag"> Instagram</span>
+          </p>
+          <p class="gram">@thee_MamaMboga</p>
+        </div>
+        <div>
+          <p>
+            <i id="gramlogo" class="fa-brands fa-facebook"></i
+            ><span id="instag"> Facebook</span>
+          </p>
+          <p class="gram">@thee_MamaMboga</p>
+        </div>
+        <div>
+          <p>
+            <i id="gramlogo" class="fa-solid fa-envelope"></i
+            ><span id="instag"> E-mail</span>
+          </p>
+          <p class="gram">MamaMbogacustomercare@gmail.com</p>
+        </div>
+        <div>
+          <p><i id="gramlogo" class="fa-brands fa-x-twitter"></i></p>
+          <p class="gram">@MamaMboga_</p>
+        </div>
+        <div>
+          <p><i id="gramlogo" class="fa-solid fa-phone"></i></p>
+          <p class="gram">07012345678</p>
+        </div>
+      </div>
+    </nav>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

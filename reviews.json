@@ -1,0 +1,30 @@
+{
+  "reviews": [
+    {
+      "username": "collins Njuguna",
+      "rating": 4,
+      "comment": "Great service and quality products!"
+    },
+    {
+      "username": "meikan sankan",
+      "rating": 5,
+      "comment": "I love shopping here, the variety is amazing!"
+    },
+    {
+      "username": "Neema",
+      "rating": 3,
+      "comment": "Good experience overall, but could improve on delivery time."
+    },
+    {
+    "username": "halib",
+    "rating":6,
+    "comment": "i love it the customer service "
+  },
+    {
+    "username": "erustus",
+    "rating":4,
+    "comment": "eeeeiii i love the kisii ovacadoo buana "
+  }
+  
+  ]
+}
