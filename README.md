@@ -36,5 +36,5 @@ This project is licensed under the MIT License Copyright (c) 2018.
 
 ## live-link
 
-https://github.com/s-k3nyyy/collins-njuguna-final-project-Mama-Mboga.git
+
 # Group-2-The-OKOA-JUA-project
