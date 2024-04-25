@@ -263,26 +263,20 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   // Get the username from the input field
   const usernameInput = document.getElementById('username');
   const username = usernameInput.value.trim();
-  // For simplicity, we're not handling the password here
-
-  // Display an alert with the greeting message
-  //window.alert(`Hi there, ${username}!`);
-
-  // Hide the login container
+  
+  // Hides the login container
   loginContainer.style.display = 'none';
 });
 document.getElementById('loginForm').addEventListener('submit', function(event) {
   event.preventDefault();
   
-  // Get the username from the input field
+  // Gets the username from the input field
   const usernameInput = document.getElementById('username');
   const username = usernameInput.value.trim();
-  // For simplicity, we're not handling the password here
-
-  // Display an alert with the greeting message
+  // Displays an allert with the greeting messsage
   window.alert(`Hi there, ${username}!`);
 
-  // Hide the login container
+  // Hides the loggin container
   loginContainer.style.display = 'none';
 
   // Update the content of the profile icon with the logged-in username
@@ -291,7 +285,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 // Event listener for the "Add review" button
 document.querySelector('.revieww').addEventListener('click', function() {
-  // Display the review form container
+  // Display the reviews form container
   const reviewFormContainer = document.getElementById('reviewFormContainer');
   reviewFormContainer.style.display = 'block';
 });
