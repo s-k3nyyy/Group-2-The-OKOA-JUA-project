@@ -35,6 +35,6 @@ This project is licensed under the MIT License Copyright (c) 2018.
 - Special thanks to all contributors and users who provide feedback to help improve the application in the reviews section
 
 ## live-link
-
+https://s-k3nyyy.github.io/Group-2-The-OKOA-JUA-project/
 
 # Group-2-The-OKOA-JUA-project
