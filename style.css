@@ -223,6 +223,16 @@ nav ul li a:hover {
     margin-top: 50px;
 }
 
+.user {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.passi {
+    width: 350px;
+    margin-top: 10px;
+}
+
 .line1 {
     color: black;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -261,12 +271,11 @@ nav ul li a:hover {
 }
 
 .add-to-cart {
-    background-color: red;
-    color: white;
+    background-color: rgb(248, 225, 20);
+    color: rgb(2, 47, 85);
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 20px;
-    color: white;
 }
 
 .card-container {
@@ -392,6 +401,7 @@ header {
     position: relative;
     margin-left: 250px;
     margin-top: -30px;
+    cursor: pointer;
 
 }
 
@@ -546,48 +556,45 @@ body.showCart .container {
 
 .cart-item {
     display: flex;
-    /* Display items horizontally */
+
     align-items: center;
-    /* Align items vertically in the center */
+
     margin-bottom: 10px;
-    /* Add some margin between items */
+
     font-size: 14px;
-    /* Set the font size */
 }
 
 .product-image-small {
     width: 50px;
-    /* Adjust size as needed */
     height: auto;
     margin-right: 10px;
-    /* Add some space between image and text */
+
 }
 
 .info-container p {
     margin: 0;
-    /* Remove default margin for paragraphs */
+
 }
 
 .delete-button {
     border: 1px solid #ccc;
-    /* Add border with a light gray color */
+
     border-radius: 5px;
-    /* Add border radius for a smoother look */
+
     background-color: transparent;
-    /* Make background transparent */
+
     padding: 5px 10px;
-    /* Add padding for better button appearance */
+
     margin-left: auto;
-    /* Push the button to the right */
+
     cursor: pointer;
-    /* Change cursor to pointer on hover */
+
     transition: all 0.3s ease;
-    /* Add smooth transition for hover effect */
 }
 
 .delete-button:hover {
     background-color: #ddd;
-    /* Change background color on hover */
+
 }
 
 .modal {
@@ -665,6 +672,8 @@ body.showCart .container {
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+
+
 }
 
 .loggg {
@@ -735,4 +744,15 @@ body.showCart .container {
     top: 10px;
     right: 10px;
     cursor: pointer;
+}
+
+#profile {
+    font-size: 28px;
+    color: rgb(123, 123, 255);
+    cursor: pointer;
+}
+
+/* like function */
+.red-heart {
+    color: red;
 }
