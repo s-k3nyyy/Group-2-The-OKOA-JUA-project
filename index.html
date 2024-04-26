@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mama Mboga Grocery Store</title>
     <link rel="stylesheet" href="style.css" />
+
     <!-- Linking Font Awesome for icons -->
     <script
       src="https://kit.fontawesome.com/2de799230c.js"
@@ -24,6 +25,7 @@
           <li><a href="#reviews">Reviews</a></li>
           <li><a href="#contact">Contact Us</a></li>
           <i id="profile" class="fa-solid fa-user"></i>
+
           <span id="loggedInUsername"></span>
           <form class="search-form" id="search-form">
             <input type="search" id="search-box" placeholder="Search Here..." />
@@ -64,14 +66,16 @@
               <span class="close">&times;</span>
               <h2>Enter Phone Number and M-Pesa PIN</h2>
               <input
+                class="pphone"
                 type="text"
                 id="phone-number"
                 placeholder="Enter your phone number"
               />
               <input
+                class="mpessa"
                 type="password"
                 id="mpesa-pin"
-                placeholder="Enter your M-Pesa PIN"
+                placeholder="Enter your M-Pesa PIN &#129763;"
               />
               <button id="confirm-pin">Confirm</button>
             </div>

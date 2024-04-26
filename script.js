@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Function to close the cart
- // Add event listener to the close button
+
 closeCart.addEventListener('click', () => {
     console.log('Close button clicked'); // Debugging statement
     body.classList.toggle('showCart');
@@ -141,7 +141,7 @@ document.addEventListener('click', (event) => {
 // Function to update the cart display
 const addCartToHTML = () => {
     listCartHTML.innerHTML = '';
-    let totalAmount = 0; // Initialize total amount
+    let totalAmount = 0; 
 
     cart.forEach(product => {
         const cartItem = document.createElement('div');
@@ -199,30 +199,23 @@ const updateCartCount = () => {
     iconCartSpan.textContent = cart.length;
 };
 // Event listener for the checkout button
-// Event listener for the checkout button
-// Get the modal
 const modal = document.getElementById("myModal");
-
 // Get the button that opens the modal
 const btn = document.querySelector('.checkOut');
-
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
 // Get reference to the close button in the cart
 const closeCartButton = document.querySelector('.close');
-
 // Add event listener to the close button
 closeCartButton.addEventListener('click', () => {
     // Toggle the 'showCart' class on the body element to close the cart
     document.body.classList.remove('showCart');
 });
-
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> closes the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
@@ -252,10 +245,7 @@ closeButton.addEventListener('click', function() {
 // Prevent form submission (for demonstration purposes)
 document.getElementById('loginForm').addEventListener('submit', function(event) {
   event.preventDefault();
-  // Add your login logic here
 });
-// Prevent form submission (for demonstration purposes)
-
 // Prevent form submission (for demonstration purposes)
 document.getElementById('loginForm').addEventListener('submit', function(event) {
   event.preventDefault();
@@ -274,14 +264,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   const usernameInput = document.getElementById('username');
   const username = usernameInput.value.trim();
   // Displays an allert with the greeting messsage
-  window.alert(`Hi there, ${username}!`);
-
+ window.alert(`welcome ${username}👋 to Okoa Jua 💛`);
   // Hides the loggin container
   loginContainer.style.display = 'none';
 
   // Update the content of the profile icon with the logged-in username
   const loggedInUsername = document.getElementById('loggedInUsername');
-  loggedInUsername.textContent = username;
+  loggedInUsername.textContent = `${username}😎`;
 });
 // Event listener for the "Add review" button
 document.querySelector('.revieww').addEventListener('click', function() {

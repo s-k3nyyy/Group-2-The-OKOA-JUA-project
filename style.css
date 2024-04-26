@@ -265,6 +265,13 @@ nav ul li a:hover {
     transition: box-shadow 0.3s ease;
 }
 
+.pphone,
+.mpessa {
+    height: 25px;
+    border-radius: 10px;
+    color: #030303;
+}
+
 #cardd-image {
     width: 200px;
     height: 200px;
