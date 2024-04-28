@@ -184,7 +184,7 @@ const addCartToHTML = () => {
     // Append total bar to the cart
     const totalBar = document.createElement('div');
     totalBar.classList.add('total-bar');
-    totalBar.innerHTML = `<span>Total:  </span><span id="total-amount "> ksh ${totalAmount  .toFixed(2)}</span>`;
+   totalBar.innerHTML = `<span>Total:  </span><span id="total-amount "> ksh ${totalAmount.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>`; // Adds a comma to total amount
     listCartHTML.appendChild(totalBar);
 };
 
