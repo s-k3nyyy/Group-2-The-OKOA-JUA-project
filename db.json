@@ -1,9 +1,9 @@
 {
-  "productList": [
+  "foodList": [
     {
       "id": 1,
       "image": "https://i.ebayimg.com/images/g/Ef4AAOSwz6tkjCtJ/s-l1600.jpg",
-      "title": "Portable Solar Generator",
+      "title": "Portable Solar Generator ",
       "description": "With Inverter Panel Silent Power Station new for sale",
       "amount": 20000
     },

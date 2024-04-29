@@ -30,16 +30,16 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
     // Fetches data from 'db.json' for products
-   fetch('db.json')
-    .then(response => response.json())
-    .then(data => {
-        const productContainer = document.getElementById('product-container');
-        data.productList.forEach(product => {
-            const card = createProductCard(product);
-            productContainer.appendChild(card);
-        });
-    })
-    .catch(error => console.error('Error fetching product data:', error));
+    fetch('db.json')
+        .then(response => response.json())
+        .then(data => {
+            const productContainer = document.getElementById('product-container');
+            data.foodList.forEach(product => {
+                const card = createProductCard(product);
+                productContainer.appendChild(card);
+            });
+        })
+        .catch(error => console.error('Error fetching product data:', error));
 
     // Fetches data from 'reviews.json' for reviews
     const reviewsContainer = document.getElementById('reviews-container');
@@ -84,8 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Function to handle search functionality 
-    document.getElementById('search-form')
-    .addEventListener('submit', function (event) {
+    document.getElementById('search-form').addEventListener('submit', function (event) {
         event.preventDefault();
         const searchTerm = document.getElementById('search-box').value.toLowerCase();
         const productCards = document.querySelectorAll('.cardd');
